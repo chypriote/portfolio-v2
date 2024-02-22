@@ -1,11 +1,8 @@
 <template>
-	<div>
+	<div id="app">
 		<the-header />
 		<main class="container">
-			<section-home />
-			<section-work />
-			<section-education />
-			<section-skills />
+			<NuxtPage />
 		</main>
 	</div>
 </template>

@@ -8,10 +8,11 @@
 
 		<nav role="navigation">
 			<ul role="list">
-				<li><a href="#home">Home</a></li>
-				<li><a href="#work">Work</a></li>
-				<li><a href="#education">Education</a></li>
-				<li><a href="#skills">Skills</a></li>
+				<li><a href="/#home">Home</a></li>
+				<li><a href="/#work">Work</a></li>
+				<li><a href="/#education">Education</a></li>
+				<li><a href="/#skills">Skills</a></li>
+				<li><a href="/blog">Blog</a></li>
 			</ul>
 		</nav>
 	</header>

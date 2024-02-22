@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 import { Technos, type Work } from '~/types'
 
 const { t } = useI18n()

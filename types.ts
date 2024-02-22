@@ -34,10 +34,18 @@ export enum Technos {
 }
 
 export interface Work {
-	title: string,
-	subtitle: string,
-	description: string,
-	logo: string,
-	date: string,
-	technos: Technos[],
+	title: string
+	subtitle: string
+	description: string
+	logo: string
+	date: string
+	technos: Technos[]
+}
+
+export interface Post {
+	title: string
+	slug: string
+	excerpt: string
+	published_at: Date
+	updated_at: Date
 }
