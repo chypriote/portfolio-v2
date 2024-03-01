@@ -9,7 +9,7 @@
 				<project-lolpros-slider class="slider" />
 			</aside>
 			<div class="content">
-				<h2>LOLPros.GG</h2>
+				<h3>LOLPros.GG</h3>
 				<project-lolpros-text-fr />
 			</div>
 		</div>
@@ -19,7 +19,7 @@
 <style scoped>
 .grid {
 	display: grid;
-	grid-gap: 1.5rem;
+	gap: 0 2rem;
 	grid-template-columns: repeat(5,minmax(0,1fr));
 }
 .content {

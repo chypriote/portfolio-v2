@@ -5,7 +5,7 @@
 <template>
 	<header>
 		<a href="mailto:nicolas.temenides@gmail.com">nicolas.temenides@gmail.com</a>
-
+		{{ $i18n.locale }}
 		<nav role="navigation">
 			<ul role="list">
 				<li><a href="/#home">Home</a></li>

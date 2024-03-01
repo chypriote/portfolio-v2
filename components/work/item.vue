@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Mission from './mission.vue'
 import type { Work } from '~/types'
 
 const { work } = defineProps({
@@ -9,17 +10,13 @@ const expanded = ref(false)
 
 <template>
 	<div class="experience" :class="{'--expanded': expanded}" @click="expanded = !expanded">
-		<header>
-			<div class="logo"><img :src="`/logo/${work.logo}`" :alt="work.title"> </div>
-			<div class="text">
-				<p class="title">{{ work.title }}</p>
-				<p class="subtitle">{{ work.subtitle }}</p>
-			</div>
-			<time class="time">{{ work.date }}</time>
-		</header>
+		<work-item-header :work />
 		<template v-if="expanded">
 			<div class="description">{{ work.description }}</div>
-			<div class="technos">
+			<div v-if="work.missions?.length" class="missions">
+				<mission v-for="mission of work.missions" :key="mission" :mission :work="work.id" />
+			</div>
+			<div v-if="work.technos.length" class="technos">
 				<techno v-for="techno of work.technos" :key="techno" :techno="techno" />
 			</div>
 		</template>
@@ -33,36 +30,20 @@ const expanded = ref(false)
 	transition: all 200ms cubic-bezier(.4,0,.2,1);
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 1.5rem;
 	&:hover {
 		border-color: rgb(163 163 163 / 100%);
 		cursor: pointer;
 	}
 }
-header {
+.description {
+	white-space: pre-wrap;
+	line-height: 1.3;
+}
+.missions {
 	display: flex;
-	align-items: center;
+	flex-direction: column;
 	gap: 1rem;
-}
-.logo {
-	width: 4rem;
-	height: 2rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	img {max-width: 4rem;max-height: 2rem;}
-}
-.text {flex-grow: 1;}
-.title {
-	color: var(--text-accent);
-	margin-bottom: .25rem;
-}
-.subtitle {
-	font-size: .9rem;
-	text-align: left;
-}
-.time {
-	width: 5rem;
 }
 .technos {
 	display: flex;

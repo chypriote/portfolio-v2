@@ -31,12 +31,15 @@ export enum Technos {
 	JIRA = 'Jira',
 	AZURE = 'AZURE',
 	AWS = 'AWS',
+	ANGULAR = 'AngularJs',
 }
 
 export interface Work {
+	id: string,
 	title: string
 	subtitle: string
 	description: string
+	missions?: string[]
 	logo: string
 	date: string
 	technos: Technos[]

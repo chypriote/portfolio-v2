@@ -26,6 +26,9 @@ export default {
 		english: 'English',
 		german: 'German',
 		chinese: 'Chinese',
+		fluent: 'Fluent',
+		intermediary: 'Intermediary',
+		beginner: 'Beginner',
 	},
 	work: {
 		nrj: {
@@ -35,19 +38,19 @@ export default {
 			description: '',
 		},
 		assoconnect: {
-			description: 'Development of internal tools and client funnels, using VueJs, NuxtJS and Symfony.\n Development of new functionalities and maintenance on the Renault Occasion website.\n Integration of new third-party API and WebServices.',
+			description: 'Development of internal tools and client funnels, using VueJs, NuxtJS and Symfony.\nDevelopment of new functionalities and maintenance on the Renault Occasion website.\nIntegration of new third-party API and WebServices.',
 		},
 		carizy: {
-			description: 'Development of internal tools and client funnels, using VueJs, NuxtJS and Symfony.\n Development of new functionalities and maintenance on the Renault Occasion website.\n Integration of new third-party API and WebServices.',
+			description: 'Development of internal tools and client funnels, using VueJs, NuxtJS and Symfony.\nDevelopment of new functionalities and maintenance on the Renault Occasion website.\nIntegration of new third-party API and WebServices.',
 		},
 		legalplace: {
-			description: 'Development of internal dashboards and tools, using React, NodeJS and Typescript.\n Responsible for technical decisions, planification and repartition of tasks.\n Maintenance, updates and development of new functionalities on the Legalplace.fr website\n Integration of best-practices such as CI and CD.\n Leadership on high plus-value features (payment solutions, generation of automatically filled PDF documents)',
+			description: 'Development of internal dashboards and tools, using React, NodeJS and Typescript.\nResponsible for technical decisions, planification and repartition of tasks.\nMaintenance, updates and development of new functionalities on the Legalplace.fr website\nIntegration of best-practices such as CI and CD.\nLeadership on high plus-value features (payment solutions, generation of automatically filled PDF documents)',
 		},
 		aaa: {
-			description: 'Manager for a professional League of Legends team.\n In charge of the weekly planning and calendar for the team.\n Responsible for organizing travels and accommodations for events all over France.\n Main point of contact for tournament officials, internal departments and other teams.',
+			description: 'Manager for a professional League of Legends team.\nIn charge of the weekly planning and calendar for the team.\nResponsible for organizing travels and accommodations for events all over France.\nMain point of contact for tournament officials, internal departments and other teams.',
 		},
 		smartangels: {
-			description: 'Maintenance, updates and development of new functionalities on the SmartAngels website, using AngularJS and Symfony 2.\n Migration from Symfony 2 to 3.4 then 4.',
+			description: 'Maintenance, updates and development of new functionalities on the SmartAngels website, using AngularJS and Symfony 2.\nMigration from Symfony 2 to 3.4 then 4.',
 		},
 	},
 }
