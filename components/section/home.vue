@@ -14,7 +14,7 @@
 
 <style scoped>
 section {
-	min-height: calc(100vh - 10rem);
+	min-height: 100vh;
 	justify-content: center;
 }
 p {

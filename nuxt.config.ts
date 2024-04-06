@@ -25,6 +25,7 @@ export default defineNuxtConfig({
 	],
 	app: {
 		head: {
+			title: 'Nicolas TEMENIDES',
 			link: [
 				{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
 			],
