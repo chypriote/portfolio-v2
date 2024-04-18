@@ -5,14 +5,14 @@
 <template>
 	<header>
 		<a href="mailto:nicolas.temenides@gmail.com">nicolas.temenides@gmail.com</a>
-		{{ $i18n.locale }}
 		<nav role="navigation">
 			<ul role="list">
 				<li><a href="/#home">Home</a></li>
+				<li><a href="/#projects">Projects</a></li>
 				<li><a href="/#work">Work</a></li>
 				<li><a href="/#education">Education</a></li>
 				<li><a href="/#skills">Skills</a></li>
-				<li><a href="/blog">Blog</a></li>
+				<!--				<li><a href="/blog">Blog</a></li>-->
 			</ul>
 		</nav>
 	</header>

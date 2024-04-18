@@ -7,43 +7,68 @@ import { Technos } from '~/types'
 		<heading :title="'Skills'" />
 		<div class="grid">
 			<div class="skill">
-				<h4>ReactJS applications</h4>
+				<h4>{{ $t('skills.backend.header') }}</h4>
 				<p>
+					{{ $t('skills.backend.description') }}
 					Having worked on websites where availability and reliability is crucial
 					Worked on websites where availability and scalability is crucial. With industry standards tools.
 				</p>
 				<div class="technos">
+					<techno :techno="Technos.PHP" />
+					<techno :techno="Technos.SYMFONY" />
+					<techno :techno="Technos.NODE" />
+				</div>
+			</div>
+			<div class="skill">
+				<h4>{{ $t('skills.frontend.header') }}</h4>
+				<p>{{ $t('skills.frontend.description') }}</p>
+				<div class="technos">
+					<techno :techno="Technos.HTML" />
+					<techno :techno="Technos.CSS" />
+					<techno :techno="Technos.JAVASCRIPT" />
+					<techno :techno="Technos.TYPESCRIPT" />
+					<techno :techno="Technos.VUE" />
+					<techno :techno="Technos.REACT" />
+					<techno :techno="Technos.NUXT" />
+				</div>
+			</div>
+			<div class="skill">
+				<h4>{{ $t('skills.databases.header') }}</h4>
+				<p>{{ $t('skills.databases.description') }}</p>
+				<div class="technos">
+					<techno :techno="Technos.POSTGRESQL" />
+					<techno :techno="Technos.MYSQL" />
+					<techno :techno="Technos.MONGODB" />
 					<techno :techno="Technos.REDIS" />
 					<techno :techno="Technos.ELASTICSEARCH" />
 					<techno :techno="Technos.RABBITMQ" />
 				</div>
 			</div>
 			<div class="skill">
-				<h4>  applications</h4>
-				<p>Clear communication with all actors, from fellow developers to business focused teams.</p>
-				<p>Quickly adapt to any process, used to work in Lean teams, as well as Agile/SCRUM or even V cycle focused organisations.</p>
-			</div>
-			<div class="skill">
-				<h4>Reliable backend</h4>
-				<p>Focus on producing a technical solution to a business problem.</p>
+				<h4>{{ $t('skills.devops.header') }}</h4>
+				<p>{{ $t('skills.devops.description') }}</p>
 				<div class="technos">
-					<techno :techno="Technos.PHP" />
-					<techno :techno="Technos.SYMFONY" />
-					<techno :techno="Technos.MYSQL" />
-					<techno :techno="Technos.POSTGRESQL" />
-					<techno :techno="Technos.NODE" />
+					<techno :techno="Technos.AWS" />
+					<techno :techno="Technos.AZURE" />
+					<techno :techno="Technos.GIT" />
+					<techno :techno="Technos.DOCKER" />
 				</div>
 			</div>
 			<div class="skill">
-				<h4>Immaculate frontend</h4>
-				<p>Reactive and responsive interfaces. Maintainability and reusability as a default.</p>
+				<h4>{{ $t('skills.project.header') }}</h4>
+				<p>{{ $t('skills.project.description') }}</p>
 				<div class="technos">
-					<techno :techno="Technos.HTML" />
-					<techno :techno="Technos.CSS" />
-					<techno :techno="Technos.JAVASCRIPT" />
-					<techno :techno="Technos.VUE" />
-					<techno :techno="Technos.REACT" />
-					<techno :techno="Technos.NUXT" />
+					<techno :techno="Technos.JIRA" />
+					<techno :techno="Technos.TRELLO" />
+					<techno :techno="Technos.GIT" />
+				</div>
+			</div>
+			<div class="skill">
+				<h4>{{ $t('skills.radar.header') }}</h4>
+				<p>{{ $t('skills.radar.description') }}</p>
+				<div class="technos">
+					<techno :techno="Technos.GO" />
+					<techno :techno="Technos.SVELTE" />
 				</div>
 			</div>
 		</div>

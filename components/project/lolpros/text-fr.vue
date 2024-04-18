@@ -4,9 +4,8 @@
 
 <template>
 	<div class="project">
-		<h4>Description</h4>
-		<p>Officiellement lancé en 2018, LOLPros est le site de référence pour les joueurs hauts classés sur League of Legends. Le site propose un annuaire des joueurs connus, ainsi que des classements par pays ou par role.</p>
-		<p>Aujourd'hui, le site reçoit plus de 200 000 visiteurs par mois dans le monde entier, et est utilisé par toute la sqdsq. Un serveur discord de plusieurs milliers d'utilisateurs</p>
+		<p>Officiellement lancé en 2018, <a href="https://lolpros.gg" target="_blank">LOLPros.gg</a> est le site de référence pour les joueurs hauts classés sur League of Legends. Le site propose un annuaire des joueurs connus, ainsi que des classements par pays ou par role.</p>
+		<p>Aujourd'hui, le site reçoit plus de 200 000 visiteurs uniques par mois dans le monde entier, et est utilisé par toute la sqdsq. Un serveur discord de plusieurs milliers d'utilisateurs</p>
 		<h4>Architecture</h4>
 		<p>La brique de base du site est une API Rest développée avec Symfony. Cell-ci est utilisée par différentes frontend, le site public récemment migré de Nuxt 2 à Nuxt 3, et le panel d'adminisatration utilisant Nuxt 2.</p>
 		<p>L'application Symfony communique avec de nombreux services différents: une base de données MySQL, ElasticSearch, RabbitMQ, et un micro service NodeJS servant à effectuer les mises à jours quotidiennes des données.</p>
@@ -24,6 +23,11 @@
 	display: flex;
 	flex-direction: column;
 	gap: .5rem;
+	padding-top: .5rem;
+	a {
+		color: var(--accent);
+		&:hover {color: var(--accent-darker);}
+	}
 }
 p {line-height: 1.1;}
 h4 {margin: 1rem 0 0;}

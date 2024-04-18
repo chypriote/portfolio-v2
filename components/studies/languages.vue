@@ -1,11 +1,10 @@
 <script setup lang="ts">
 
-const { t } = useI18n()
 const languages = [
-	{ iso: 'FR', name: t('lang.french'), value: 'fluent' },
-	{ iso: 'GB', name: t('lang.english'), value: 'fluent' },
-	{ iso: 'DE', name: t('lang.german'), value: 'intermediaire' },
-	{ iso: 'CN', name: t('lang.chinese'), value: 'beginner' },
+	{ iso: 'FR', name: 'french', value: 'fluent' },
+	{ iso: 'GB', name: 'english', value: 'fluent' },
+	{ iso: 'DE', name: 'german', value: 'intermediary' },
+	{ iso: 'CN', name: 'chinese', value: 'beginner' },
 ]
 </script>
 
@@ -13,8 +12,8 @@ const languages = [
 	<div class="languages">
 		<div v-for="lang of languages" :key="lang.iso" class="lang">
 			<flag-icon :country="lang.iso" />
-			<div class="name">{{ lang.name }}</div>
-			<div class="value">{{ lang.value }}</div>
+			<div class="name">{{ $t(`lang.${lang.name}`) }}</div>
+			<div class="value">{{ $t(`lang.${lang.value}`) }}</div>
 		</div>
 	</div>
 </template>

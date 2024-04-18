@@ -53,4 +53,30 @@ export default {
 			description: 'Maintenance, updates and development of new functionalities on the SmartAngels website, using AngularJS and Symfony 2.\nMigration from Symfony 2 to 3.4 then 4.',
 		},
 	},
+	skills: {
+		backend: {
+			header: 'Backend',
+			description: '',
+		},
+		frontend: {
+			header: 'Frontend',
+			description: '',
+		},
+		databases: {
+			header: 'Bases de données',
+			description: '',
+		},
+		devops: {
+			header: 'Tooling & Devops',
+			description: '',
+		},
+		project: {
+			header: 'Gestion de Projet',
+			description: 'Les outils utilisés au quotidien dans le suivi et la gestion des projets sur lesquels j\'évolue',
+		},
+		radar: {
+			header: 'Dans le radar',
+			description: 'Des technologies ayant attiré mon attention et dans lesquelles j\'aimerais ou suis en train de monter en compétence',
+		},
+	},
 }

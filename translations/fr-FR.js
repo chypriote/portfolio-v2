@@ -32,8 +32,22 @@ export default {
 	},
 	work: {
 		nrj: {
-			subtitle: 'Développeur FullStack Symfony React',
-			description: '',
+			subtitle: 'Lead Développeur FullStack Symfony React',
+			description: 'E-NRJ est une filiale du groupe NRJ, acteur incontournable de la Communication grâce à une offre globale (radio, TV, web, hors média) : NRJ radio, Chérie FM, Nostalgie, Rire et Chansons et en télévision avec NRJ12 et Chérie 25. E-NRJ est en charge du développement et de la distribution digitale du groupe NRJ, qui regroupe les expertises digitales du groupe (éditorial, marketing, technique, UX/Design). Elle gère plusieurs sites à fort trafic en constante évolution et développe des projets innovants.',
+			missions: {
+				seo_optimisation: {
+					title: 'Optimisations SEO',
+					description: 'Le référencement dans les moteurs de recherche est la priorité absolue des sites de contenu media. A ce titre, une majeure partie de ma mission a été de travailler autour de la Google Search Console, afin d\'assurer que les contenus publiés soient correctement indexés par les robots Google, de façon à optimiser le placement.\nDans ce cadre, j\'ai été en charge de la mise en place du flux RSS sur le site NRJ.',
+				},
+				performance_optimisation: {
+					title: 'Améliorations des performances',
+					description: '',
+				},
+				formation: {
+					title: 'Améliorations des performances',
+					description: '',
+				},
+			},
 		},
 		letudiant: {
 			subtitle: 'Développeur FullStack Symfony Vue.js',
@@ -64,12 +78,23 @@ export default {
 			subtitle: 'Développeur FullStack NodeJS React',
 			description: 'Development of internal dashboards and tools, using React, NodeJS and Typescript.\nResponsible for technical decisions, planification and repartition of tasks.\nMaintenance, updates and development of new functionalities on the Legalplace.fr website\nIntegration of best-practices such as CI and CD.\nLeadership on high plus-value features (payment solutions, generation of automatically filled PDF documents)',
 			missions: {
-
+				dashboard: {
+					title: 'Tableau de bord CRM',
+					description: 'Création d’un nouveau tableau de bord, en React.JS et d’une API associée en Node.JS et Typescript, permettant aux membres des équipes de LegalPlace de suivre l’avancement des différents dossiers clients, ainsi que de proposer une vision claire du statut de ceux-ci.',
+				},
+				cerfa: {
+					title: 'Génération de CERFA pré remplis',
+					description: 'Création d’une série de fonctions AWS Lambda permettant de générer automatiquement des CERFA pré-remplis avec les informations du client.\nIntégration de la librairie Java PDFParser pour générer des PDFs modifiables.\nUtilisation via l’API NodeJS LegalPlace\nInterface avec l’API DocuSign pour permettre la signature en ligne des clients',
+				},
+				paiement: {
+					title: 'Intégration d’un nouveau système de paiement',
+					description: 'Ajout de la possibilité de payer en plusieurs fois sur les différentes plateformes LegalPlace.\nIntégration de la solution de paiement Alma dans l’API LegalPlace',
+				},
 			},
 		},
 		aaa: {
 			subtitle: 'Team Manager',
-			description: 'Manager for a professional League of Legends team.\nIn charge of the weekly planning and calendar for the team.\nResponsible for organizing travels and accommodations for events all over France.\nMain point of contact for tournament officials, internal departments and other teams.',
+			description: 'Manager d\'une équipe professionnelle sur le jeu League of Legends.\nOrganisation du planning hebdomadaire et du calendrier de l\'équipe.\nGestion des déplacements des joueurs et du staff pour participer à des événements dans toute la France.\nContact principal pour les équipes extérieurs et organisateurs d’événements/tournois autour du jeu.',
 		},
 		smartangels: {
 			subtitle: 'Développeur FullStack Symfony Angular.js',
@@ -78,6 +103,32 @@ export default {
 				refonte: { title: 'Refonte des pages de levées de fond', description: 'Migration des pages de campagne de templates Twig à des pages dynamiques avec AngularJS.\nCréation d’une API SmartAngels utilisée par le frontend pour afficher des infos détaillées sur les différentes levées de fond.' },
 				gestion: { title: 'Gestion de portefeuille', description: 'Création d’un nouvel outil de gestion de portefeuille d’actions destiné à des sociétés de gestion.\nCréation de plusieurs outils frontend en Angular.JS permettant le suivi des portefeuilles, le reporting, ainsi que facilitant la gestion des équités pour les entrepreneurs.\nÉvolutions de l’API SmartAngels pour être utilisée par ces outils.' },
 			},
+		},
+	},
+	skills: {
+		backend: {
+			header: 'Backend',
+			description: '',
+		},
+		frontend: {
+			header: 'Frontend',
+			description: '',
+		},
+		databases: {
+			header: 'Bases de données',
+			description: '',
+		},
+		devops: {
+			header: 'Tooling & Devops',
+			description: '',
+		},
+		project: {
+			header: 'Gestion de Projet',
+			description: 'Les outils utilisés au quotidien dans le suivi et la gestion des projets sur lesquels j\'évolue',
+		},
+		radar: {
+			header: 'Dans le radar',
+			description: 'Des technologies ayant attiré mon attention et dans lesquelles j\'aimerais ou suis en train de monter en compétence',
 		},
 	},
 }

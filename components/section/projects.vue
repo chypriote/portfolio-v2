@@ -7,10 +7,12 @@
 		<div class="grid">
 			<aside class="aside">
 				<project-lolpros-slider class="slider" />
+				<project-lolpros-kpi />
 			</aside>
 			<div class="content">
 				<h3>LOLPros.GG</h3>
 				<project-lolpros-text-fr />
+				<project-lolpros-technos />
 			</div>
 		</div>
 	</section>

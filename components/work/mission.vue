@@ -7,8 +7,8 @@ const { work, mission } = defineProps({
 
 <template>
 	<div class="mission">
-		<p class="title">{{ $t(`${work}.missions.${mission}.title`) }}</p>
-		<p class="description">{{ $t(`${work}.missions.${mission}.description`) }}</p>
+		<p class="title">{{ $t(`work.${work}.missions.${mission}.title`) }}</p>
+		<p class="description">{{ $t(`work.${work}.missions.${mission}.description`) }}</p>
 	</div>
 </template>
 
@@ -23,6 +23,6 @@ const { work, mission } = defineProps({
 }
 .description {
 	white-space: pre-wrap;
-	line-height: 1.3;
+	line-height: 1.5;
 }
 </style>
