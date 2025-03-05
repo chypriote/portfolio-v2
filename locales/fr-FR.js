@@ -50,7 +50,7 @@ export default {
 			},
 		},
 		letudiant: {
-			subtitle: 'Développeur FullStack Symfony Vue.js',
+			subtitle: 'Développeur FullStack Symfony/Vue.js',
 			description: 'L\'Étudiant est une entreprise reconnue à l\'échelle nationale pour les informations qu\'elle diffuse auprès des lycéens et étudiants.\nLes Tests, Quiz et Jeux concours du site sont le premier vecteur de génération de leads et l\'un des enjeux principaux du site. Ils représentent la majorité du trafic.',
 			missions: {
 				quiz: {
@@ -67,7 +67,7 @@ export default {
 			},
 		},
 		carizy: {
-			subtitle: 'Développeur FullStack Symfony Vue.js',
+			subtitle: 'Développeur FullStack Symfony/Vue.js',
 			description: 'Carizy est une plateforme d’achat et de revente de voitures d’occasion en ligne. Carizy développe aussi une application Android et iOS pour permettre à des techniciens d’inspecter et valider les voitures mises en vente.\nL’équipe Market a pour rôle de maintenir et développer les différentes interfaces utilisées par les clients, qu’ils soient vendeurs ou acheteurs.',
 			missions: {
 				funnel: { title: 'Nouveau funnel de vente', description: 'Refactorisation complète de l’interface de mise en vente d’une voiture par un particulier.\nPassage de formulaires Symfony à un frontend Nuxt.JS utilisant une API GraphQL.\nDéploiement sur AWS.' },
@@ -75,7 +75,7 @@ export default {
 			},
 		},
 		legalplace: {
-			subtitle: 'Développeur FullStack NodeJS React',
+			subtitle: 'Développeur FullStack NodeJS/React',
 			description: 'Development of internal dashboards and tools, using React, NodeJS and Typescript.\nResponsible for technical decisions, planification and repartition of tasks.\nMaintenance, updates and development of new functionalities on the Legalplace.fr website\nIntegration of best-practices such as CI and CD.\nLeadership on high plus-value features (payment solutions, generation of automatically filled PDF documents)',
 			missions: {
 				dashboard: {
@@ -97,7 +97,7 @@ export default {
 			description: 'Manager d\'une équipe professionnelle sur le jeu League of Legends.\nOrganisation du planning hebdomadaire et du calendrier de l\'équipe.\nGestion des déplacements des joueurs et du staff pour participer à des événements dans toute la France.\nContact principal pour les équipes extérieurs et organisateurs d’événements/tournois autour du jeu.',
 		},
 		smartangels: {
-			subtitle: 'Développeur FullStack Symfony Angular.js',
+			subtitle: 'Développeur FullStack Symfony/Angular.js',
 			description: 'SmartAngels était une plateforme de financement participatif pour des startups, mettant en relation investisseurs privés et créateurs d’entreprise.',
 			missions: {
 				refonte: { title: 'Refonte des pages de levées de fond', description: 'Migration des pages de campagne de templates Twig à des pages dynamiques avec AngularJS.\nCréation d’une API SmartAngels utilisée par le frontend pour afficher des infos détaillées sur les différentes levées de fond.' },
@@ -108,11 +108,11 @@ export default {
 	skills: {
 		backend: {
 			header: 'Backend',
-			description: '',
+			description: 'Les technologies backend avec lesquelles j\'ai pris l\'habitude de travailler',
 		},
 		frontend: {
 			header: 'Frontend',
-			description: '',
+			description: 'Les technologies frontend avec lesquelles j\'ai pris l\'habitude de travailler',
 		},
 		databases: {
 			header: 'Bases de données',

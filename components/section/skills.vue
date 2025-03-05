@@ -3,8 +3,8 @@ import { Technos } from '~/types'
 </script>
 
 <template>
-	<section id="education">
-		<heading :title="'Skills'" />
+	<section id="skills">
+		<heading :title="'Compétences'" />
 		<div class="grid">
 			<div class="skill">
 				<h4>{{ $t('skills.backend.header') }}</h4>
@@ -68,7 +68,6 @@ import { Technos } from '~/types'
 				<p>{{ $t('skills.radar.description') }}</p>
 				<div class="technos">
 					<techno :techno="Technos.GO" />
-					<techno :techno="Technos.SVELTE" />
 				</div>
 			</div>
 		</div>

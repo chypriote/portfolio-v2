@@ -41,6 +41,7 @@ header {
 	text-align: left;
 }
 .time {
-	width: 5rem;
+	width: 10rem;
+	text-align: right;
 }
 </style>

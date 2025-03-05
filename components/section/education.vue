@@ -7,11 +7,11 @@
 		<heading :title="'Education'" />
 		<div class="grid">
 			<div class="studies">
-				<h3>Studies</h3>
+				<h3>Etudes</h3>
 				<studies-timeline />
 			</div>
 			<div class="languages">
-				<h3>Languages</h3>
+				<h3>Langues</h3>
 				<studies-languages />
 			</div>
 		</div>

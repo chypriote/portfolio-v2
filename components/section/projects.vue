@@ -3,7 +3,7 @@
 
 <template>
 	<section id="projects">
-		<heading :title="'Projects'" />
+		<heading :title="'Projets'" />
 		<div class="grid">
 			<aside class="aside">
 				<project-lolpros-slider class="slider" />

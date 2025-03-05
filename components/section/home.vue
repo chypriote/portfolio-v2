@@ -5,8 +5,9 @@
 <template>
 	<section id="home">
 		<h1>Hi, I’m Nicolas 👋</h1>
-		<p>Bonjour, I'm a <strong>Fullstack Web developer</strong> with over <strong>7 years</strong> of experience.</p>
-		<p>My current stack of choice is <strong>Symfony and Vue.Js</strong>, however I pride myself in being able to <strong>quickly adapt</strong> to most technologies.</p>
+		<p>Bonjour, I'm a <strong>Dévelopeur Web Fullstack</strong> avec plus de <strong>8 ans</strong> d'experience.</p>
+		<p>I am an expert developer using <strong>Symfony</strong> and <strong>Vue.Js</strong>, however I pride myself in being able to <strong>quickly adapt</strong> to most technologies.</p>
+		<p>As a matter of fact</p>
 		<p>Outside of work I love <strong>gaming</strong> and am involved in the french League of Legends scene. I am also a regular <strong>concert</strong>-goer.</p>
 		<socials />
 	</section>

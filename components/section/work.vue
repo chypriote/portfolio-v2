@@ -6,7 +6,7 @@ const works: Work[] = [
 	{
 		id: 'nrj',
 		title: 'NRJ',
-		date: '2024',
+		date: 'Septembre 2023 - Aujourd\'hui',
 		subtitle: t('work.nrj.subtitle'),
 		description: t('work.nrj.description'),
 		logo: 'nrj.png',
@@ -16,7 +16,7 @@ const works: Work[] = [
 	{
 		id: 'letudiant',
 		title: 'L\'Etudiant',
-		date: '2023',
+		date: 'Septembre 2022 - Aout 2023',
 		subtitle: t('work.letudiant.subtitle'),
 		description: t('work.letudiant.description'),
 		missions: ['quiz'],
@@ -79,12 +79,47 @@ const works: Work[] = [
 	<section id="work">
 		<heading :title="'Work'" />
 		<div class="experiences">
-			<work-item v-for="work of works" :key="work.title" :work="work" />
+			<div class="esn">
+				<header>
+					<div class="logo"><img :src="`/logo/cbtw.png`" alt="CBTW"> </div>
+					<div class="text">
+						<h4 class="title">CBTW</h4>
+						<p class="subtitle">Développeur Fullstack Senior</p>
+					</div>
+					<time class="time">Depuis 2022</time>
+				</header>
+				<p>Missions</p>
+				<work-item :work="works[0]" />
+				<work-item :work="works[1]" />
+			</div>
+			<work-item v-for="work of works.slice(2)" :key="work.title" :work="work" />
 		</div>
 	</section>
 </template>
 
 <style scoped>
+.esn {
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+	padding: 1rem;
+	border: 1px solid var(--border);
+	header {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+	}
+	.text {flex-grow: 1;}
+	.logo {
+		width: 4rem;
+		height: 2rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		img {max-width: 4rem;max-height: 2rem;}
+	}
+	& > p {color: var(--text)}
+}
 .experiences {
 	display: flex;
 	flex-direction: column;
