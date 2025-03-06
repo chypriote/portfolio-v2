@@ -33,8 +33,9 @@ export enum Technos {
 	AWS = 'AWS',
 	ANGULAR = 'AngularJs',
 	GO = 'GoLang',
-	SVELTE = 'Svelte',
-	TRELLO = 'Trello',
+	TDD = 'TDD',
+	SOLID = 'SOLID',
+	AGILE = 'Agile/Scrum',
 }
 
 export interface Work {

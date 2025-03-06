@@ -4,8 +4,8 @@
 
 <template>
 	<section id="home">
-		<h1>Hi, I’m Nicolas 👋</h1>
-		<p>Bonjour, I'm a <strong>Dévelopeur Web Fullstack</strong> avec plus de <strong>8 ans</strong> d'experience.</p>
+		<h1>Nicolas Temenides 👋</h1>
+		<p><strong>Dévelopeur Web Fullstack Sénior</strong> depuis plus de <strong>8 ans</strong></p>
 		<p>I am an expert developer using <strong>Symfony</strong> and <strong>Vue.Js</strong>, however I pride myself in being able to <strong>quickly adapt</strong> to most technologies.</p>
 		<p>As a matter of fact</p>
 		<p>Outside of work I love <strong>gaming</strong> and am involved in the french League of Legends scene. I am also a regular <strong>concert</strong>-goer.</p>

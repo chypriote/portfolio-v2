@@ -77,7 +77,7 @@ const works: Work[] = [
 
 <template>
 	<section id="work">
-		<heading :title="'Work'" />
+		<heading :title="'Experiences'" />
 		<div class="experiences">
 			<div class="esn">
 				<header>

@@ -4,7 +4,7 @@
 
 <template>
 	<section id="education">
-		<heading :title="'Education'" />
+		<heading :title="'Formation'" />
 		<div class="grid">
 			<div class="studies">
 				<h3>Etudes</h3>

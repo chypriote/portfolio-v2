@@ -8,11 +8,6 @@ import { Technos } from '~/types'
 		<div class="grid">
 			<div class="skill">
 				<h4>{{ $t('skills.backend.header') }}</h4>
-				<p>
-					{{ $t('skills.backend.description') }}
-					Having worked on websites where availability and reliability is crucial
-					Worked on websites where availability and scalability is crucial. With industry standards tools.
-				</p>
 				<div class="technos">
 					<techno :techno="Technos.PHP" />
 					<techno :techno="Technos.SYMFONY" />
@@ -21,7 +16,6 @@ import { Technos } from '~/types'
 			</div>
 			<div class="skill">
 				<h4>{{ $t('skills.frontend.header') }}</h4>
-				<p>{{ $t('skills.frontend.description') }}</p>
 				<div class="technos">
 					<techno :techno="Technos.HTML" />
 					<techno :techno="Technos.CSS" />
@@ -34,7 +28,6 @@ import { Technos } from '~/types'
 			</div>
 			<div class="skill">
 				<h4>{{ $t('skills.databases.header') }}</h4>
-				<p>{{ $t('skills.databases.description') }}</p>
 				<div class="technos">
 					<techno :techno="Technos.POSTGRESQL" />
 					<techno :techno="Technos.MYSQL" />
@@ -46,28 +39,21 @@ import { Technos } from '~/types'
 			</div>
 			<div class="skill">
 				<h4>{{ $t('skills.devops.header') }}</h4>
-				<p>{{ $t('skills.devops.description') }}</p>
 				<div class="technos">
 					<techno :techno="Technos.AWS" />
 					<techno :techno="Technos.AZURE" />
 					<techno :techno="Technos.GIT" />
 					<techno :techno="Technos.DOCKER" />
+					<techno :techno="Technos.TDD" />
+					<techno :techno="Technos.SOLID" />
 				</div>
 			</div>
 			<div class="skill">
 				<h4>{{ $t('skills.project.header') }}</h4>
-				<p>{{ $t('skills.project.description') }}</p>
 				<div class="technos">
 					<techno :techno="Technos.JIRA" />
-					<techno :techno="Technos.TRELLO" />
+					<techno :techno="Technos.AGILE" />
 					<techno :techno="Technos.GIT" />
-				</div>
-			</div>
-			<div class="skill">
-				<h4>{{ $t('skills.radar.header') }}</h4>
-				<p>{{ $t('skills.radar.description') }}</p>
-				<div class="technos">
-					<techno :techno="Technos.GO" />
 				</div>
 			</div>
 		</div>

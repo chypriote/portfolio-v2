@@ -9,9 +9,9 @@
 			<ul role="list">
 				<li><a href="/#home">Home</a></li>
 				<li><a href="/#projects">Projects</a></li>
-				<li><a href="/#work">Work</a></li>
-				<li><a href="/#education">Education</a></li>
-				<li><a href="/#skills">Skills</a></li>
+				<li><a href="/#work">Experiences</a></li>
+				<li><a href="/#education">Formation</a></li>
+				<li><a href="/#skills">Compétences</a></li>
 				<!--				<li><a href="/blog">Blog</a></li>-->
 			</ul>
 		</nav>

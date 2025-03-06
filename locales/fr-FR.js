@@ -41,11 +41,11 @@ export default {
 				},
 				performance_optimisation: {
 					title: 'Améliorations des performances',
-					description: '',
+					description: 'Travail de fond sur les systeèmes de cache utilisés pour les différents sites de la marque.\nEn coopération avec les devops, amélioration des performances via les différents cache Cloudflare, HTTP, Redis et Elasticsearch',
 				},
 				formation: {
-					title: 'Améliorations des performances',
-					description: '',
+					title: 'Migration des frontends',
+					description: 'Passage des frontends legacy en React/Next.js vers Symfony UX/Twig Components',
 				},
 			},
 		},
@@ -90,17 +90,21 @@ export default {
 					title: 'Intégration d’un nouveau système de paiement',
 					description: 'Ajout de la possibilité de payer en plusieurs fois sur les différentes plateformes LegalPlace.\nIntégration de la solution de paiement Alma dans l’API LegalPlace',
 				},
+				practices: {
+					title: 'Mise en place de best practices',
+					description: 'Ajout d\'une CI/CD afin de lancer des tests de non regression sur les fonctionnalités à risque\nMise en place d\'outils d\'analyse statique (ESLint, Prettier) pour améliorer la qualité du code',
+				},
 			},
 		},
 		aaa: {
 			subtitle: 'Team Manager',
-			description: 'Manager d\'une équipe professionnelle sur le jeu League of Legends.\nOrganisation du planning hebdomadaire et du calendrier de l\'équipe.\nGestion des déplacements des joueurs et du staff pour participer à des événements dans toute la France.\nContact principal pour les équipes extérieurs et organisateurs d’événements/tournois autour du jeu.',
+			description: 'Manager d\'une équipe professionnelle d\'esport sur le jeu League of Legends.\nOrganisation du planning hebdomadaire et du calendrier de l\'équipe.\nGestion des déplacements des joueurs et du staff pour participer à des événements dans toute la France.\nContact principal pour les équipes extérieurs et organisateurs d’événements/tournois autour du jeu.',
 		},
 		smartangels: {
 			subtitle: 'Développeur FullStack Symfony/Angular.js',
 			description: 'SmartAngels était une plateforme de financement participatif pour des startups, mettant en relation investisseurs privés et créateurs d’entreprise.',
 			missions: {
-				refonte: { title: 'Refonte des pages de levées de fond', description: 'Migration des pages de campagne de templates Twig à des pages dynamiques avec AngularJS.\nCréation d’une API SmartAngels utilisée par le frontend pour afficher des infos détaillées sur les différentes levées de fond.' },
+				refonte: { title: 'Refonte des pages de levées de fond', description: 'Lead developper sur la refonte, prises de décisions techniques et référrent pour une équipe de 2 developpeurs\nMigration des pages de campagne de templates Twig à des pages dynamiques avec AngularJS.\nCréation d’une API SmartAngels utilisée par le frontend pour afficher des infos détaillées sur les différentes levées de fond.' },
 				gestion: { title: 'Gestion de portefeuille', description: 'Création d’un nouvel outil de gestion de portefeuille d’actions destiné à des sociétés de gestion.\nCréation de plusieurs outils frontend en Angular.JS permettant le suivi des portefeuilles, le reporting, ainsi que facilitant la gestion des équités pour les entrepreneurs.\nÉvolutions de l’API SmartAngels pour être utilisée par ces outils.' },
 			},
 		},
@@ -108,11 +112,11 @@ export default {
 	skills: {
 		backend: {
 			header: 'Backend',
-			description: 'Les technologies backend avec lesquelles j\'ai pris l\'habitude de travailler',
+			description: '',
 		},
 		frontend: {
 			header: 'Frontend',
-			description: 'Les technologies frontend avec lesquelles j\'ai pris l\'habitude de travailler',
+			description: '',
 		},
 		databases: {
 			header: 'Bases de données',
@@ -124,11 +128,11 @@ export default {
 		},
 		project: {
 			header: 'Gestion de Projet',
-			description: 'Les outils utilisés au quotidien dans le suivi et la gestion des projets sur lesquels j\'évolue',
+			description: '',
 		},
 		radar: {
 			header: 'Dans le radar',
-			description: 'Des technologies ayant attiré mon attention et dans lesquelles j\'aimerais ou suis en train de monter en compétence',
+			description: '',
 		},
 	},
 }
