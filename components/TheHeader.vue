@@ -4,11 +4,11 @@
 
 <template>
 	<header>
-		<a href="mailto:nicolas.temenides@gmail.com">nicolas.temenides@gmail.com</a>
+		<a href="mailto:nicolas.temenides@gmail.com">nicolas temenides</a>
 		<nav role="navigation">
 			<ul role="list">
 				<li><a href="/#home">Home</a></li>
-				<li><a href="/#projects">Projects</a></li>
+				<li><a href="/#projects">Projets</a></li>
 				<li><a href="/#work">Experiences</a></li>
 				<li><a href="/#education">Formation</a></li>
 				<li><a href="/#skills">Compétences</a></li>
