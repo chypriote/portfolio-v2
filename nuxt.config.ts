@@ -12,6 +12,9 @@ export default defineNuxtConfig({
 		'~/assets/app.css',
 	],
 	modules: [
+		// 'nuxt-content-assets',
+		'@nuxt/content',
+		'@nuxt/image',
 		'@nuxt/fonts',
 		['@nuxtjs/i18n', {
 			defaultLocale: 'fr',

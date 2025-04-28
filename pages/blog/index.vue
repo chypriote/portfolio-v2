@@ -22,6 +22,7 @@ const posts: Post[] = [
 <template>
 	<heading :title="'Blog'" />
 	<div class="posts">
+		<nuxt-link to="/blog/china/milk-tea">Milk Tea</nuxt-link>
 		<posts-list-item v-for="post of posts" :key="post.slug" :post="post" />
 	</div>
 </template>
