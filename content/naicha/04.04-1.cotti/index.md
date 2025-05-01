@@ -1,15 +1,15 @@
 ---
-date: 2025-03-26
+date: 2025-04-04
 title: 'Cotti Coffee'
 brand: 库迪咖啡
 brand-en: Cotti Coffee
-item:
+item: 海盐焦糖丝滑拿铁
 item-en:
-city: 广州
-city-en: Guangzhou
-description: 'Guangzhou airport'
+city: 成都
+city-en: Chengdu
+description: 'Chengdu Wuhu District'
 ---
 
 # 库迪咖啡 Cotti Coffee 
 
-This is Foo blog post.
+海盐焦糖丝滑拿铁

@@ -1,15 +1,16 @@
 ---
-date: 2025-03-26
-title: 'Naixue'
-brand: 奈雪的茶
-brand-en: Naixue
-item:
+date: 2025-04-15
+title: 'ShuYiSXC'
+brand: 书亦烧仙草
+brand-en: ShuYiSXC
+item: 幽兰乌龙 - 茉莉奶绿
 item-en:
 city: 广州
 city-en: Guangzhou
 description: 'Guangzhou airport'
 ---
 
-# 奈雪的茶 Naixue 
+# 书亦烧仙草 ShuYiSXC 
 
-This is Foo blog post.
+幽兰乌龙
+茉莉奶绿

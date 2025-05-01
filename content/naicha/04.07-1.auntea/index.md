@@ -1,15 +1,15 @@
 ---
-date: 2025-03-26
-title: 'Naixue'
-brand: 奈雪的茶
-brand-en: Naixue
-item:
+date: 2025-04-07
+title: 'Auntea Jenny'
+brand: 沪上阿姨
+brand-en: Auntea Jenny
+item: 波波奶茶
 item-en:
-city: 广州
-city-en: Guangzhou
+city: 九寨沟
+city-en: Jiuzhaigou
 description: 'Guangzhou airport'
 ---
 
-# 奈雪的茶 Naixue 
+# 沪上阿姨 Auntea Jenny 
 
-This is Foo blog post.
+波波奶茶

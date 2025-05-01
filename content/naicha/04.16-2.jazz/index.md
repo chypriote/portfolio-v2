@@ -1,15 +1,15 @@
 ---
 date: 2025-03-26
-title: 'Naixue'
-brand: 奈雪的茶
-brand-en: Naixue
-item:
+title: 'Jazz Cafe'
+brand: 现磨咖啡
+brand-en: Jazz Cafe
+item: 珍珠奶茶
 item-en:
-city: 广州
-city-en: Guangzhou
-description: 'Guangzhou airport'
+city: 张家界
+city-en: Zhangjiajie
+description: Shi Li Gallery
 ---
 
-# 奈雪的茶 Naixue 
+# 现磨咖啡 Jazz Cafe 
 
-This is Foo blog post.
+珍珠奶茶

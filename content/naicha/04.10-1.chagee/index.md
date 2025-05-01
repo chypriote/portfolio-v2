@@ -1,15 +1,15 @@
 ---
-date: 2025-03-26
-title: 'Naixue'
-brand: 奈雪的茶
-brand-en: Naixue
-item:
+date: 2025-04-10
+title: 'Chagee'
+brand: 霸王茶姬
+brand-en: Chagee
+item: 醒时春山
 item-en:
-city: 广州
-city-en: Guangzhou
-description: 'Guangzhou airport'
+city: 成都
+city-en: Chengdu
+description: 'Gare Chengdu'
 ---
 
-# 奈雪的茶 Naixue 
+# 霸王茶姬 Chagee
 
-This is Foo blog post.
+醒时春山

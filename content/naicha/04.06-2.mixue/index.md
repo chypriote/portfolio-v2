@@ -1,15 +1,15 @@
 ---
-date: 2025-03-26
-title: 'Naixue'
-brand: 奈雪的茶
-brand-en: Naixue
-item:
+date: 2025-04-06
+title: 'Mixue'
+brand: 蜜雪冰城
+brand-en: Mixue
+item: 蜜桃四季春
 item-en:
-city: 广州
-city-en: Guangzhou
+city: 成都
+city-en: Chengdu
 description: 'Guangzhou airport'
 ---
 
-# 奈雪的茶 Naixue 
+# 蜜雪冰城 Mixue 
 
-This is Foo blog post.
+蜜桃四季春

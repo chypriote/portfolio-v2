@@ -1,15 +1,15 @@
 ---
-date: 2025-03-26
+date: 2025-04-08
 title: 'ChaPanda'
 brand: 茶百道
 brand-en: ChaPanda
-item:
+item: 豆乳玉麒麟
 item-en:
-city: 广州
-city-en: Guangzhou
+city: 九寨沟
+city-en: Jiuzhaigou Valley
 description: 'Guangzhou airport'
 ---
 
 # 茶百道 ChaPanda 
 
-This is Foo blog post.
+豆乳玉麒麟

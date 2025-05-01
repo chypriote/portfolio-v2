@@ -1,15 +1,15 @@
 ---
-date: 2025-03-26
-title: 'Naixue'
-brand: 奈雪的茶
-brand-en: Naixue
-item:
+date: 2025-04-06
+title: 'MollyTea'
+brand: 茉莉奶白
+brand-en: MollyTea
+item: 桐木关小种
 item-en:
-city: 广州
-city-en: Guangzhou
+city: 成都
+city-en: Chengdu
 description: 'Guangzhou airport'
 ---
 
-# 奈雪的茶 Naixue 
+# 茉莉奶白 MollyTea 
 
-This is Foo blog post.
+桐木关小种 

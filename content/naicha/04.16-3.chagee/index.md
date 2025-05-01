@@ -1,15 +1,15 @@
 ---
 date: 2025-03-26
-title: 'Naixue'
-brand: 奈雪的茶
-brand-en: Naixue
-item:
+title: 'Chagee'
+brand: 霸王茶姬
+brand-en: Chagee
+item: 伯牙绝弦
 item-en:
-city: 广州
-city-en: Guangzhou
-description: 'Guangzhou airport'
+city: 张家界
+city-en: Zhangjiajie
+description: 'Wulingyuan exit'
 ---
 
-# 奈雪的茶 Naixue 
+# 霸王茶姬 Chagee 
 
-This is Foo blog post.
+伯牙绝弦

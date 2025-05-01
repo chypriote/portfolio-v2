@@ -1,15 +1,15 @@
 ---
 date: 2025-03-26
-title: 'Naixue'
-brand: 奈雪的茶
-brand-en: Naixue
-item:
+title: 'a little tea'
+brand: 一点点
+brand-en: a little tea
+item: 非遗红糖波霸奶茶
 item-en:
-city: 广州
-city-en: Guangzhou
+city: 成都
+city-en: Chengdu
 description: 'Guangzhou airport'
 ---
 
-# 奈雪的茶 Naixue 
+# 一点点 a little tea 
 
-This is Foo blog post.
+非遗红糖波霸奶茶

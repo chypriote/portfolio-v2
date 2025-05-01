@@ -1,15 +1,15 @@
 ---
-date: 2025-03-26
+date: 2025-04-09
 title: 'Naixue'
 brand: 奈雪的茶
 brand-en: Naixue
-item:
+item: 金色山脉珍珠奶茶
 item-en:
-city: 广州
-city-en: Guangzhou
-description: 'Guangzhou airport'
+city: 成都
+city-en: Chengdu
+description: 'Hotel Delivery'
 ---
 
 # 奈雪的茶 Naixue 
 
-This is Foo blog post.
+金色山脉珍珠奶茶

@@ -1,15 +1,15 @@
 ---
-date: 2025-03-26
-title: 'Naixue'
-brand: 奈雪的茶
-brand-en: Naixue
-item:
+date: 2025-04-15
+title: 'ShanDeWei'
+brand: 山得味
+brand-en: ShanDeWei
+item: 奶茶
 item-en:
-city: 广州
-city-en: Guangzhou
-description: 'Guangzhou airport'
+city: 张家界
+city-en: Zhangjiajie
+description: 'TianMen Shan'
 ---
 
-# 奈雪的茶 Naixue 
+# 山得味 ShanDeWei 
 
-This is Foo blog post.
+奶茶
