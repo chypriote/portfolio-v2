@@ -1,4 +1,4 @@
-import { defineCollection, defineContentConfig, z } from '@nuxt/content'
+import {defineCollection, defineContentConfig, z} from '@nuxt/content'
 
 export default defineContentConfig({
 	collections: {
@@ -9,6 +9,8 @@ export default defineContentConfig({
 				date: z.string(),
 				brand: z.string(),
 				title: z.string(),
+				city: z.string(),
+				'city-en': z.string(),
 			})
 		})
 	}

@@ -1,15 +1,15 @@
 ---
-date: 2025-03-26
-title: 'Naixue'
-brand: 奈雪的茶
-brand-en: Naixue
-item:
+date: 2025-04-21
+title: 'Hongdu Thumb'
+brand: 洪都大拇指
+brand-en: Hongdu Thumb
+item: 春桃乌龙
 item-en:
-city: 广州
-city-en: Guangzhou
-description: 'Guangzhou airport'
+city: 南昌
+city-en: Nanchang
+description: 'Nanchang wanshu temple'
 ---
 
-# 奈雪的茶 Naixue 
+# 洪都大拇指 Hongdu Thumb 
 
-This is Foo blog post.
+春桃乌龙

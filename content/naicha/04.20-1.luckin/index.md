@@ -1,15 +1,15 @@
 ---
-date: 2025-03-26
-title: 'Naixue'
-brand: 奈雪的茶
-brand-en: Naixue
-item:
+date: 2025-04-20
+title: 'Luckin Coffee'
+brand: 瑞幸咖啡 
+brand-en: Luckin Coffee
+item: 鲜萃轻轻茉莉
 item-en:
-city: 广州
-city-en: Guangzhou
-description: 'Guangzhou airport'
+city: 长沙
+city-en: Changsha
+description: 'Changsha Huangxing road'
 ---
 
-# 奈雪的茶 Naixue 
+# 瑞幸咖啡  Luckin Coffee 
 
-This is Foo blog post.
+鲜萃轻轻茉莉

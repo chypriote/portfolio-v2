@@ -1,15 +1,15 @@
 ---
-date: 2025-03-26
-title: 'Naixue'
-brand: 奈雪的茶
-brand-en: Naixue
-item:
+date: 2025-04-20
+title: 'Chayan Yuese'
+brand: 察颜悦色
+brand-en: Chayan Yuese
+item: 少年时
 item-en:
-city: 广州
-city-en: Guangzhou
-description: 'Guangzhou airport'
+city: 长沙
+city-en: Changsha
+description: 'Changsha station'
 ---
 
-# 奈雪的茶 Naixue 
+# 察颜悦色 Chayan Yuese 
 
-This is Foo blog post.
+少年时

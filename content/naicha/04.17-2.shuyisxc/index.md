@@ -1,15 +1,16 @@
 ---
-date: 2025-03-26
-title: 'Naixue'
-brand: 奈雪的茶
-brand-en: Naixue
-item:
+date: 2025-04-17
+title: 'ShuYiSXC'
+brand: 书亦烧仙草
+brand-en: ShuYiSXC
+item: 老红糖珍珠奶茶 - 桃桃乌龙果茶
 item-en:
-city: 广州
-city-en: Guangzhou
-description: 'Guangzhou airport'
+city: 武陵源
+city-en: Wulingyuan
+description: 'Hotel Delivery'
 ---
 
 # 奈雪的茶 Naixue 
 
-This is Foo blog post.
+老红糖珍珠奶茶  
+桃桃乌龙果茶

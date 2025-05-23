@@ -42,7 +42,7 @@
     "@types/node": "^22.15",
     "eslint": "^8.57",
     "husky": "^9.1",
-    "lint-staged": "^15.5",
+    "lint-staged": "^16.0",
     "nuxt-typed-router": "^3.8",
     "postcss": "^8.5",
     "postcss-html": "^1.8",
@@ -50,7 +50,7 @@
     "postcss-nested": "^7.0",
     "prettier": "^3.5",
     "stylelint": "^16.19",
-    "stylelint-config-standard": "^37.0",
+    "stylelint-config-standard": "^38.0",
     "typescript": "^5.8"
   },
   "engines": {
